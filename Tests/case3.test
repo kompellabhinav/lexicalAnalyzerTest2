@@ -1,0 +1,14 @@
+Play
+    Huge variable1;
+    variable1 = 9 + (3 * 7);
+
+    small variableOne;
+    variableOne = 1;
+
+    cond ( varitionOne < = 1) {
+        varOne = 10;
+    }
+
+    Huge varTw;
+    variableTwo = variableO+ 5;
+Stop

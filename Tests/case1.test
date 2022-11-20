@@ -1,0 +1,25 @@
+Play
+
+  Medium variableOne;
+  variableOne = 3;
+
+  Huge variableTwo;
+  variableTwo = 1 + 1 + (6 + (100 * 2)) * variableOne;
+
+  condition (variableOne == variableTwo) {
+    condition (variableOne <= variableTwo) {
+      variableOne = variableTwo * 2;
+    }
+  }
+
+  Small variableThree;
+  variableThree = 0;
+
+  loop (variableThree <= 2) {
+    variableThree = variableThree + 4;
+
+    condition (variableThree == 3) {
+      variableThree = variableThree * 2;
+    }
+    
+Stop

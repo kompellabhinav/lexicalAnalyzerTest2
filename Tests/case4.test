@@ -1,0 +1,15 @@
+Begin
+
+    Huge variableOne;
+    variableOne = 3 * 7 - 2;
+
+    Small variableTwo;
+    variableTwo = 6;
+
+    Large variable_a;
+
+    condition (variableTwo < variableOne){
+        variable_a = 1;
+    }
+
+Stop

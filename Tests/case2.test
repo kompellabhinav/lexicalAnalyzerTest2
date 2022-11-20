@@ -1,0 +1,16 @@
+Play
+
+  Huge variableOne;
+  variableOne = 1-5 + 2;
+
+  condition (variableOne > = 4 {
+    variableOne = 20;
+
+    condition (variableOne != 2) {
+      variableOne = variableOne % 2;
+
+    Huge variableTwo;
+    variableTwo = 1 - 7 * ( 1 / 2 ) ;
+  }
+
+Stop
