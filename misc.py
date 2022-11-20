@@ -100,14 +100,15 @@ def tree(exp, node: BinaryNode):
     while i < len(temp):
         if temp[i] == TList["OPEN"]:
             i = indexPairBracket(temp, TList["OPEN"], TList["CLOSE"],i)
+        elif temp[i-1:i+2] == f' {TList["DIVIDE"]} ':
+            index_div = i
         elif temp[i-1:i+2] == f' {TList["PLUS"]} ':
             index_plus = i
         elif temp[i-1:i+2] == f' {TList["MINUS"]} ':
             index_minus = i
         elif temp[i-1:i+2] == f' {TList["MULTIPLY"]} ':
             index_mul = i
-        elif temp[i-1:i+2] == f' {TList["DIVIDE"]} ':
-            index_div = i
+        
         i = i + 1
 
     
