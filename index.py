@@ -6,7 +6,7 @@ from Stack import stack
 
 def main():
    
-    text = open('Lexical_And_Syntax_Analyzer-main\Tests\case1.test', 'r', encoding='utf-8').read()
+    text = open('lexicalAnalyzerTest2\Tests\case1.test', 'r', encoding='utf-8').read()
     text = text.replace("\n", " ")
     text = re.sub('\s+', " ", text)
     text = re.findall(r'Play (.*) Stop', text)[0]
